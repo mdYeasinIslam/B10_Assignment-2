@@ -1,0 +1,83 @@
+#habit-section{ 
+   background-image: linear-gradient(to bottom,#111111,#111111 );
+   padding: 6rem 0 6rem 0;
+
+}
+.habit-body{
+    text-align: center;
+    color: white;
+}
+.habit-body > h1{
+    font-size: 44px;
+    font-weight: 900;
+}
+.habit-body >p{
+    width: 40%;
+    margin: auto;
+    color: #747373;
+}
+.habit-card{
+    width: 85%;
+    margin:  auto;
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns:repeat(4 ,1fr) ;
+    color: white;
+
+}
+.habit-card > div{
+    text-align: center;
+}
+.habit-card > div> figure > img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.habit-card > div> div> p{
+    width: 80%;
+    margin: auto;
+    color: #747373;
+}
+@media screen and (max-width:576px) {
+    #habit-section{
+        padding: 2rem 0;
+     
+     }
+    .habit-body{
+        /* text-align: center; */
+        color: white;
+    }
+    .habit-body > h1{
+        font-size: 33px;
+        font-weight: 700;
+
+    }
+    .habit-body >p{
+        width: 70%;
+        margin: 5px auto 0 auto;
+        color: #747373;
+        line-height: 20px;
+    }
+    .habit-card{
+        width: 100%;
+        margin:  auto;
+        padding-top: 4rem;
+        display: flex;
+       flex-direction: column;
+        color: white;
+    
+    }
+    .habit-card > div{
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    .habit-card > div> div> p{
+        width: 60%;
+        margin: auto;
+        color: #747373;
+    }
+    .habit-card > div> figure > img{
+        width: 80%;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+}
