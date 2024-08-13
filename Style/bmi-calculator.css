@@ -61,7 +61,7 @@
 }
 
 .bmi-form>.input-field>input {
-    width: 45%;
+    width: 40%;
     padding: 10px 10px;
     margin: 5px 4px;
     border: none;
@@ -70,7 +70,7 @@
 }
 
 .bmi-form>.input-field>.input {
-    width: 95%;
+    width: 87%;
 }
 
 .calculate-button {
@@ -140,7 +140,7 @@
         font-weight: bolder;
         margin-top: 20px;
     }
-
+ 
     .bmi-form>.form-head>p {
         margin: 20px 0;
         line-height: 20px;

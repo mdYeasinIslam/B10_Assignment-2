@@ -94,4 +94,16 @@
     margin: auto;
     
 }
+.healthy-section>div>header {
+    width: auto;
+    padding: 0 0 5rem 0;
+    text-align: center;
+    color: #a1a1a1;
+}
+.healthy-section>div>header>h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
 }
