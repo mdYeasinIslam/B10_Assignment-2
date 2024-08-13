@@ -1,0 +1,97 @@
+.healthy-section {
+    background-image: linear-gradient(to bottom, #111111, #111111);
+    padding: 0 0 6rem 0;
+    color: white;
+} 
+
+.healthy-section>div {
+    width: 85%;
+    margin: auto;
+}
+
+.healthy-section>div>header {
+    width: 50%;
+    margin: auto;
+    padding: 0 0 5rem 0;
+    text-align: center;
+    color: #a1a1a1;
+}
+
+.healthy-section>div>header>h1 {
+    color: white;
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.healthy-card {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 20px;
+    /* transition: all 2s linear 3s; */
+
+}
+
+.healthy-card>.card-2 {
+    height: 95%;
+    position: relative;
+    display: block;
+    grid-row: span 2;
+    margin: auto;
+    
+}
+/* .healthy-card:hover {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+} */
+
+.healthy-card>.card-2>div {
+    width: 60%;
+    position: absolute;
+    /* display: none; */
+    bottom: 50%;
+    right: 20%;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+
+}
+.healthy-card>.card-2>figure>img {
+    width: 100%;
+    height: 300px !important;
+    filter: brightness(55%);
+
+}
+
+.healthy-card>div>figure>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.healthy-card>div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.healthy-card>div>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 20px;
+}
+@media screen and (max-width:576px){
+    .healthy-card {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+
+.healthy-card>.card-2 {
+    height: 95%;
+    display: block;
+    position: relative;
+    margin: auto;
+    
+}
+}
