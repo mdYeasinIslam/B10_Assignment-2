@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Grey+Qo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+* {
+    margin: 0;
+}
+.shape-font{
+    font-family: "Miama",sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+.banner-font{
+    
+}
+.header-section {
+    background-image: linear-gradient(to bottom, #111111 0%, #3e3e3e 50%, #111111 100%);
+   
+    padding-top: 50px;
+}
+
+.nav-section {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-section>nav>ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 2px solid rgb(42, 42, 42);
+    padding: 10px 20px 10px 0;
+    border-radius: 50px;
+    list-style: none;
+
+}
+
+.nav-section>nav>ul>li>a {
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px 10px;
+    color: white;
+} 
+
+.nav-section>nav>ul>.home>a {
+    background-color: #E6533C;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+
+.nav-section>.site-logo {
+    color: #E6533C;
+
+}
+
+/* banner-section  */
+.banner-section {
+    width: 85%;
+    height: 580px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+
+}
+
+.banner-section>.banner-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-section>div>h1 {
+    color: white;
+    font-size: 78px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.banner-section>div>p {
+    margin-top: 40px;
+    color: #777777;
+}
+
+.button-1 {
+    background-color: #E6533C !important;
+}
+
+.banner-section>div>div>button {
+    margin: 40px 0;
+    padding: 15px 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #111111;
+}
+
+.banner-section>figure {
+    width: 50%;
+    margin: auto;
+
+}
+
+.banner-section>.label-1 {
+    width: 15%;
+    position: absolute;
+    background-color: #4f4e4e;
+    border-radius: 10px;
+    right:5%;
+    top: 17rem;
+    text-align: center;
+}
+
+.label-1>h2 {
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+}
+
+.banner-section>.label-1>p {
+    margin: 0 0 10px 0;
+    font-size: medium;
+}
+
+.banner-section>.label-2 {
+    width: 15%;
+    position: absolute;
+    right: 34%;
+    top: 34rem;
+    /* bottom: 0px; */
+    background-color: #242222;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.banner-section>.label-2 p {
+    margin: 0 0 10px 0;
+    font-size: medium;
+}
+
+.label-2>h2 {
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+}
+
+@media only screen and (max-width:576px) {
+    *{
+        width: 100%;
+    }
+    .nav-section {
+        width: 95%;
+        margin: auto;
+    }
+
+    .nav-section>nav>ul {
+        display: none;
+    }
+
+    .banner-section {
+        width: 95%;
+        height: 100%;
+        margin: 20px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+   .banner-section > .banner-body > p{
+    width: 60%;
+   }
+    .banner-section>div>h1 {
+        color: white;
+        font-size: 44px;
+        font-weight: 700;
+    }
+    .banner-section>figure {
+        width: 80%;
+        margin: auto;
+    
+    }
+    .banner-section>.label-1 {
+        width:40%;
+        position: absolute;
+        background-color: #4f4e4e;
+        border-radius: 10px;
+        right: 2%;
+        top: 35rem;
+        text-align: center;
+    }
+    .banner-section>.label-2 {
+        width: 35%;
+        position: absolute;
+        left: 10%;
+        top: 50rem;
+        background-color: #212020;
+        border-radius: 10px;
+        text-align: center;
+    
+    }
+    
+    .banner-section>div>div>button {
+        margin: 10px 0;
+        padding: 15px 25px;
+        font-weight: 600;
+        border: none;
+        border-radius: 50px;
+        color: white;
+        background-color: #242323;
+    }
+    
+}
