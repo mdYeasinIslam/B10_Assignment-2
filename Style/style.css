@@ -54,7 +54,13 @@
     color: #E6533C;
 
 }
-
+#menu-icon {
+    display: none;
+    /* width: 20px;
+    height: 20px; */
+    /* background-color:antiquewhite;
+    color: black; */
+}
 /* banner-section  */
 .banner-section {
     width: 85%;
@@ -187,6 +193,10 @@
 
     .nav-section>nav>ul {
         display: none;
+    }
+    #menu-icon{
+        display: block;
+        text-align: end;
     }
 
     .banner-section {
